@@ -47,4 +47,6 @@ docker exec -e "CORE_PEER_LOCALMSPID=Org2MSP" -e "CORE_PEER_TLS_ROOTCERT_FILE=/o
 
 
 echo "########## NOW INSTALL THE CHAINCODE SCRIPT #############"
+./installchaincode.sh
+
 

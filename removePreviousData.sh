@@ -9,5 +9,5 @@ docker network prune
 rm -fr crypto-config/*
 rm -fr channel-artifacts/*
 
-./generate.sh
+#./generate.sh
 
