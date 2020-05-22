@@ -4,8 +4,10 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-export CHANNEL_ONE_NAME=channelone
+#channel one
+export CHANNEL_ONE_NAME=onechannel
 export CHANNEL_ONE_PROFILE=ChannelOne
+#channel two (but we will work in future)
 export CHANNEL_TWO_NAME=channeltwo
 export CHANNEL_TWO_PROFILE=ChannelTwo
 export ORDERER_CA=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
@@ -36,10 +38,9 @@ echo "3"
 echo "4"
 
 
-docker-compose -f docker-compose.yml up -d
+
 echo "5"
-docker ps
 echo "6"
 
-./start.sh
+#./start.sh
 

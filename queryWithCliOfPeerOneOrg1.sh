@@ -1,6 +1,6 @@
 
 #!/bin/sh
-export CHANNEL_ONE_NAME=channelone
+export CHANNEL_ONE_NAME=onechannel
 export FIRST_CHAINCODE_NAME="firstchaincode"
 
 export ORDERER_CA=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
