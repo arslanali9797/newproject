@@ -7,7 +7,7 @@ then go to client directory and play with node sdk.
 
 
 
-if you want new credentials ,new configuration transactions
+if you want new credentials ,new configuration transactions then follow the below steps
 
 step 1
 then first remove the all files and folder by running the file "removePreviousData.sh"
