@@ -4,6 +4,9 @@ the working project is cosist of 2 Org , 1 channel,1 chaincode ,each Org contain
 in this project all credintials are generated .configutation transaction is genereted ,peer and order organization is also genereted .
 you only have to run the "start.sh" file 
 then go to client directory and play with node sdk.
+
+
+
 if you want new credentials ,new configuration transactions
 
 step 1
